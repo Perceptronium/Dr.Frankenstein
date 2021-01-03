@@ -3,6 +3,7 @@ include("defines.jl")
 import Pkg
 Pkg.add("Plots")
 using Plots
+using LinearAlgebra
 
 # This will be our world reference
 R_0 = [1 0 0 0;
